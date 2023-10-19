@@ -27,6 +27,14 @@
       </plugins>
     </pluginManagement>
   </build>
+  
+   <dependencies>
+	  <dependency>
+    	<groupId>org.postgresql</groupId>
+    	<artifactId>postgresql</artifactId>
+    	<version>42.3.2</version>
+	</dependency>
+  </dependencies>
 
   <description>Arquetipo para la conexion a la base de datos</description>
 </project>
